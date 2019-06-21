@@ -10,8 +10,8 @@ Read in the csv file to ```titanic_1.py``` using pandas.read_csv()
 ## Release 1: Clean the Data
 This data is pretty clean, but there are two things we want to do to make it even better. 
 
-1. Some rows contain missing values for age; delete these rows entirely. 
-2. Separate the current 'Name' column into 'LastName', 'FirstName', and 'Title'. You will notice some names contain nicknames or other parentheticals after them--be careful in your string slicing to make sure the rows are what you want them to be.
+#### 1. Some rows contain missing values for age; delete these rows entirely. 
+#### 2. Separate the current 'Name' column into 'LastName', 'FirstName', and 'Title'. You will notice some names contain nicknames or other parentheticals after them--be careful in your string slicing to make sure the rows are what you want them to be.
 
 ## Release 2: Queries
 Now that you have a clean data frame, let's do some queries. Please go through all of these, as they will be helpful in the comming days.
