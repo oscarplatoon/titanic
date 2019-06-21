@@ -4,10 +4,7 @@ import pandas as pd
 #Read in the file
 
 
-
-
 #Clean the data
-
 
 
 #Query
