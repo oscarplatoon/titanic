@@ -1,6 +1,6 @@
 # Titanic 1
 
-In today's challenge, we will be working with one of the most classic data sets in data science and machine learning: the Titanic data set. Today, we're going to use data to figure out who survived and did not survive on the Titanic. Maybe the conclusions you come to here will help you survive on your next cruise.
+In today's challenge, we will be working with one of the most classic data sets in data science and machine learning: the Titanic. Today, we're going to use data to figure out who survived and who did not survive on the Titanic. Maybe the conclusions you come to here will help you survive on your next cruise.
 
 To accomplish this, we'll first read in the CSV and clean the data. Then, we'll query the data set and come to some conclusioins based off of the data.
 
@@ -13,7 +13,7 @@ There are two things that we need to do to clean the data:
 2. Separate the current `Name` column into `LastName`, `FirstName`, and `Title`. You will notice some names contain nicknames or other parentheticals after them--be careful in your string slicing to make sure the rows are what you want them to be.
 
 ## Release 2: Queries
-Now that you have clean data, let's do some queries:
+Now that you have clean data, let's do some Pandas queries:
 
 1. Get all rows
 2. Get all rows and display the values for `survived` and `sex`
